@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-@import "resset";
-@import "variables";
-@import "card";
+@import "_resset";
+@import "_variables";
+@import "_card";
 
-
-h1 {
-  font-size: 50px;
-}
