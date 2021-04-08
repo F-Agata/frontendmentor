@@ -2,5 +2,14 @@
 
 @import "_resset";
 @import "_variables";
+@import "_backgraoud";
 @import "_card";
 
+body {
+
+  height: 100vh;
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  background-color: $darkCyan;
+
+}

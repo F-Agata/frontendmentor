@@ -1,42 +1,128 @@
-body {
+.info-card {
+  position: absolute;
+  height: 56vh;
+  width: 85%;
 
-  height: 100vh;
-  font-family: "Kumbh Sans";
-  font-size: 18px;
-  background-color: $darkCyan;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  //overflow: hidden;
 
-}
+  background-color: white;
+  border-radius: 3%;
 
+  &__top {
+    width: 100%;
+    height: 38%;
+    background-image: url("../assets/img/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 
+  &__middle {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    border-bottom: 0.5px solid $darkGrayishBlue;
+  }
 
-.bg {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  &__name {
+    position: absolute;
+    bottom: 36%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
 
-  &__img {
+  }
+  &__age {
+    font-weight: 400;
+    color: $darkGrayishBlue;
+    padding-left: 5px;
+  }
+
+  &__city {
+    position: absolute;
+    bottom: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: $darkGrayishBlue;
+  }
+
+  &__bottom {
+    width: 100%;
+    height: 22%;
+  }
+
+  &__photo {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+  &__img-photo {
     display: block;
     max-height: 100%;
     max-width: 100%;
   }
 
-  &__top {
-    position: absolute;
-    height: 150%;
-    width: 150%;
-    left: -95%;
-    top: -55%;
 
-  }
+ .statistics {
+   display: flex;
+   align-content: center;
+   justify-content: center;
 
-  &__bottom {
-    position: absolute;
-    height: 140%;
-    width: 140%;
-    right: -90%;
-    bottom: -95%;
 
-  }
+   &__paragraph {
+     flex-basis: 33%;
+
+     display: flex;
+     flex-direction: column;
+     /* flex-wrap: wrap; */
+     /* justify-content: space-around;  */
+      //align-content: center;
+     //align-items: stretch;
+     justify-content: center;
+     align-items: center;
+
+     //border: 2px red solid;
+   }
+
+   &__number {
+     flex-basis: 100%;
+     //align-self: center;
+     font-size: 16px;
+     //border: 1px yellow solid;
+     padding: 25px 0 0 0;
+     text-align: center;
+
+   }
+
+   &__description {
+     //border: 1px green solid;
+     flex-basis: 100%;
+     //align-self: center;
+     padding: 5px;
+
+     font-size: 10px;
+     text-align: center;
+
+     color: $darkGrayishBlue;
+     letter-spacing: 1px;
+
+
+   }
+ }
+
+
 }
+
+
 
