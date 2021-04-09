@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@import "_resset";
+@import "_variables";
+@import "_backgraoud";
+@import "_card";
+
+body {
+
+  height: 100vh;
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  background-color: $darkCyan;
+
+}
