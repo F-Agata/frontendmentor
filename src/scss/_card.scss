@@ -1,15 +1,18 @@
 .info-card {
   position: absolute;
   height: 56vh;
-  width: 85%;
+  min-height: 300px;
+  width: 400px;
 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  //overflow: hidden;
+  overflow: hidden;
 
   background-color: white;
-  border-radius: 3%;
+  border-radius: 5%;
+
+
 
   &__top {
     width: 100%;
@@ -18,6 +21,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    overflow: hidden;
   }
 
   &__middle {
@@ -35,6 +39,7 @@
     font-size: 16px;
 
   }
+
   &__age {
     font-weight: 400;
     color: $darkGrayishBlue;
@@ -67,6 +72,7 @@
     overflow: hidden;
 
   }
+
   &__img-photo {
     display: block;
     max-height: 100%;
@@ -74,55 +80,47 @@
   }
 
 
- .statistics {
-   display: flex;
-   align-content: center;
-   justify-content: center;
+  .statistics {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 
 
-   &__paragraph {
-     flex-basis: 33%;
+    &__paragraph {
+      flex-basis: 33%;
 
-     display: flex;
-     flex-direction: column;
-     /* flex-wrap: wrap; */
-     /* justify-content: space-around;  */
-      //align-content: center;
-     //align-items: stretch;
-     justify-content: center;
-     align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-     //border: 2px red solid;
-   }
+         }
 
-   &__number {
-     flex-basis: 100%;
-     //align-self: center;
-     font-size: 16px;
-     //border: 1px yellow solid;
-     padding: 25px 0 0 0;
-     text-align: center;
+    &__number {
+      flex-basis: 100%;
+      font-size: 15px;
+      padding: 25px 0 0 0;
+      text-align: center;
 
-   }
+    }
 
-   &__description {
-     //border: 1px green solid;
-     flex-basis: 100%;
-     //align-self: center;
-     padding: 5px;
+    &__description {
+      flex-basis: 100%;
 
-     font-size: 10px;
-     text-align: center;
+      padding: 5px 5px 5px 10px;
 
-     color: $darkGrayishBlue;
-     letter-spacing: 1px;
+      font-size: 10px;
+      text-align: center;
+
+      color: $darkGrayishBlue;
+      letter-spacing: 1px;
 
 
-   }
- }
-
+    }
+  }
 
 }
+
 
 
 
