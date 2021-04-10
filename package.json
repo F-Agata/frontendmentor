@@ -1,7 +1,7 @@
 {
-  "name": "wtf-webpack-starterkit",
-  "version": "1.0.1",
-  "description": "WTF Webpack starterkit",
+  "name": "webpack-starterkit",
+  "version": "1.1.0",
+  "description": "Webpack starterkit F-Agata",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "Webpack",
     "boilerplate"
   ],
-  "author": "Maciek Korsan",
+  "author": "F-Agata",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.1",
