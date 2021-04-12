@@ -1,7 +1,11 @@
 .header {
+
+  flex-basis: 100%;
+
   position: relative;
 
-  min-height: 400px;
+  min-height: 430px;
+  max-width: 1024px;
 
   overflow: hidden;
 
@@ -10,11 +14,7 @@
     top: -30px;
     bottom: 0;
     right: -120px;
-
     width: 300px;
-
-
-
     background-color: hsl(207, 33%, 95%);
     border-radius: 50px;
   }
@@ -40,7 +40,6 @@
     top: 110px;
     left: 0;
     right: -150px;
-
 
   }
 
@@ -103,7 +102,6 @@
     line-height: 40px;
     letter-spacing: 1px;
     text-align: center;
-
 
     cursor: pointer;
   }
