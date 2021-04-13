@@ -15,5 +15,9 @@
 
   font-family: 'Barlow', sans-serif;
 
+  @media (min-width: 768px) {
+    flex-direction: row;
+    //border: red solid 2px;
+  }
 
 }
