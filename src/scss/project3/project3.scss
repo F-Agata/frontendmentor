@@ -38,6 +38,7 @@
 
   min-width: 350px;
   max-width: 600px;
+  margin: 20px auto;
 
   //border: red 2px solid;
 
@@ -56,9 +57,12 @@
 
   text-align: center;
 
+
+
   &__header{
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
+    color: hsl(227, 35%, 25%);
 
     padding: 30px 0;
     text-align: center;
@@ -68,6 +72,8 @@
 
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
+    color: hsl(225, 20%, 60%);
+    font-size: 15px;
 
     line-height: 30px;
 
@@ -79,7 +85,7 @@
 }
 
 .part2 {
-  margin-top: 20px;
+  margin: 40px auto;
 
   background-color: white;
   border-radius: 10px;
@@ -99,25 +105,32 @@
 
     border-top: gray 1px solid;
     padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   &__text {
 
+    flex-basis: auto;
+
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 20px;
+    color: hsl(225, 20%, 60%);
 
-    padding: 10px 0;
+    padding: 10px 40px;
 
     position: relative;
-    border: teal 2px solid;
+    //border: teal 2px solid;
 
     &::before {
       content: "";
       //display: block;
       position: absolute;
-      left: 80px;
+      left: 0;
       top: 50%;
       transform: translateY(-50%);
       width: 14px;
@@ -125,15 +138,27 @@
       background-image: url("../../assets/img/icon-check.svg");
       background-repeat: no-repeat;
       background-size: contain;
+      //border: tomato 2px solid;
     }
 
   }
 
   &__button {
-    margin: 10px auto;
-    padding: 10px 30px;
+    margin: 20px auto;
+    padding: 10px 50px;
+    background-color: hsl(227, 35%, 25%);
+    border-radius: 30px;
+    color: hsl(225, 20%, 60%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      color: white;
+    }
 
   }
-
 
 }
