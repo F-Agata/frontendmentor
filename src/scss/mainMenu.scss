@@ -12,8 +12,8 @@ body, html {
 .www {
   padding: 20px 0;
   min-height: 100vh;
-  background: rgb(112,113,115);
-  background: repeating-linear-gradient(0deg, rgba(112,113,115,1) 0%, rgba(33,33,34,1) 32%, rgba(170,170,175,1) 79%, rgba(87,92,99,1) 100%);
+  background: rgb(176,178,182);
+  background: repeating-linear-gradient(0deg, rgba(176,178,182,1) 0%, rgba(249,249,252,1) 32%, rgba(170,170,175,1) 79%, rgba(155,158,162,1) 100%);
 }
 
 
@@ -73,7 +73,7 @@ body, html {
       background-image: url("../assets/img/project2-mobile-design.jpg");
     }
     &--project3 {
-      background-image: url("../assets/img/project1-mobile-design.jpg");
+      background-image: url("../assets/img/project3-mobile-design.jpg");
     }
 
   }
