@@ -10,32 +10,38 @@
   display: block;
   position: absolute;
   top: 50%;
-  height: 2px;
+  height: 10px;
   z-index: 2;
-  background: #29e;
+  background: hsl(174, 77%, 80%);
   border-radius: 10px;
   will-change: width;
 }
 .rangeslider__handle {
   will-change: width, height, top;
-  width: 14px;
-  height: 14px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  top: 50%;
-  background: #29e;
+  top: 70%;
+
+  background: url("../../assets/img/icon-slider.svg"), hsl(174, 86%, 45%);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 28px 28px rgba(hsl(174, 86%, 65%), 1);
   display: inline-block;
   z-index: 3;
   cursor: pointer;
-  border: solid 2px #ffffff;
+
   border-radius: 50%;
   -webkit-transition: width 0.1s ease-in-out, height 0.1s ease-in-out, top 0.1s ease-in-out;
   transition: width 0.1s ease-in-out, height 0.1s ease-in-out, top 0.1s ease-in-out;
 }
 .rangeslider__handle:active {
-  background: #107ecd;
+  background: url("../../assets/img/icon-slider.svg"), hsl(174, 86%, 35%);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .rangeslider__fill__bg {
-  background: #ccc;
+  background: hsl(224, 65%, 95%);
   width: 100%;
 }
 .rangeslider--disabled {
